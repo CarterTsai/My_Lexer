@@ -6,6 +6,6 @@ My_Lexer
 ```
 $> mkdir -p build
 $> cd build
-$> cmake -G "Unix Makefiles" . ../
+$> cmake -DCMAKE_PREFIX_PATH='/opt/llvm' -G 'Unix Makefiles' . ../
 $> make
 ```
